@@ -1,0 +1,39 @@
+*{
+  font-family:Arial, Helvetica, sans-serif;
+}
+body{
+  background: url('../img/index_bg.png') fixed;
+  background-size:100% 100%;
+}
+table {
+  border-collapse: collapse;
+  background-color:black;
+  border: 2px solid white;
+  color:white;
+}
+tr{
+  height:25px;
+}
+td{
+  width:750px;
+}
+table:hover{
+  background-color:#E87DA3;
+  color:black;
+}
+input[type=submit]{
+  border:none;
+  color:black;
+  background-color:black;
+  border:2px solid white;
+  padding:10px 20px;
+  text-align:center;
+  color:white;
+}
+input[type=submit]:hover{
+  background-color:#E87DA3;
+  color:black;
+}
+input[type=text]:focus {
+  background-color: rgb(156, 210, 228);
+}
